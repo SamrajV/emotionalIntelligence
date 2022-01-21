@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html> 
+</head>
+<style>
+body{
+     background-image: url("video.png");
+     background-size: cover;
+
+
+}
+
+.next{
+    top:90%;
+    left:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 70%;
+    font-size: 40px;
+    font-color: black;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+border: 3px solid #ECECEC;
+box-sizing: border-box;
+}
+
+.button1 {background-color: #4CAF50;} 
+.button2 {background-color: #008CBA;} 
+</style>
+
+<body> 
+
+<button class="button button1" onclick="playVid()" type="button">Play Video</button>
+<button class="button button2" onclick="pauseVid()" type="button">Pause Video</button><br> 
+
+<video id="myVideo" width="820" height="476">
+  <source src="EIVideo.mp4" type="video/mp4">
+    </video>
+<form method="get" action="seventh.html">
+<div class="next"><button>Next</button></div>
+</form>
+
+
+<script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+} 
+</script> 
+
+
+
+</body> 
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional intelligence quiz</title>
+</head>
+<style>
+body{
+     background-image: url("pag3.png");
+     background-size: cover;
+
+
+}
+
+.next{
+    top:70%;
+    left:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        position: absolute;
+    
+
+            height: 40px;
+            width: 40px;
+            padding: 10px;
+            
+            background-color: grey;
+            font-size: 40px;
+            font-color: black;
+            margin-left: 30px;
+            border: 2px solid black;
+                      
+
+    cursor: pointer;
+}
+
+
+</style>
+<body>
+<div></div>
+<div class="next"><button>Next</button></div>
+<div></div>
+
+</body>
